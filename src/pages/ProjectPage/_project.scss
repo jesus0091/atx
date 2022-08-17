@@ -1,0 +1,98 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .project-title {
+
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 3rem;
+            padding: 0 15px;
+            border-right: 5px solid var(--color_detail);
+            text-align: end;
+
+            span {
+                font-weight: lighter;
+            }
+        }
+    }
+
+    .project-description {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 25vh;
+        grid-gap: 5px;
+        margin-bottom: 3rem;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                right: 0;
+                background: white;
+                z-index: 10;
+            }
+        }
+    }
+
+
+
+    .project-button {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        .project-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background: white;
+            text-decoration: none;
+            width: 200px;
+            height: 40px;
+            color: var(--color_detail);
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 18px;
+
+            .btn-icon {
+                margin-left: 10px;
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+.portrait {
+    grid-row: span 2;
+}
+
+.landscape {
+    grid-column: span 2;
+}
+
+.vw {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background: rgba( 0 0 0 / 0.2);
+        z-index: 10;
+    }
+}

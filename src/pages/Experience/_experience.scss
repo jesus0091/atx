@@ -1,0 +1,54 @@
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .experience-title {
+        border-right: 5px solid var(--color_detail);
+        // margin-bottom: 3rem;
+
+        h3 {
+            font-size: 40px;
+            font-weight: bold;
+            margin: 0;
+        }
+    }
+
+    .experience-body {
+        p {
+            font-size: 20px;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .experience-line {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+
+        .experience-date {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .e-number {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 100px;
+                margin: 0;
+                line-height: 1;
+                font-weight: bold;
+
+                .e-plus {
+                    font-size: 60px;
+                }
+            }
+
+            .e-description {
+                font-size: 20px;
+            }
+        }
+    }
+}

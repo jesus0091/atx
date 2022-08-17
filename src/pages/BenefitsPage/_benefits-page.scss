@@ -1,0 +1,26 @@
+.benefits-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    // padding-left: 10px;
+    // border-left: 5px solid var(--color_detail);
+    // border-top: 5px solid var(--color_detail);
+}
+.benefits-title-timeline {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1;
+}
+
+.benefits-timeline-body {
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+}
+
+.img-floating {
+    position: absolute;
+    height: 100%;
+    width: 41%;
+    right: 0;
+    overflow: hidden;
+}

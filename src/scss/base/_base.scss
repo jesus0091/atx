@@ -1,0 +1,40 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Reset
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+// General
+
+body {
+    background: var(--color_bg_primary);
+    color: var(--color_text);
+    min-height: 100vh;
+}
+
+// Colors
+:root {
+    --color_bg: #1F2024;
+    --color_bg_primary: #272727;
+    --color_bg_secondary: #252429;
+    --color_bg_third: #3D3D45;
+    --color_detail: #F26A30;
+    --color_text: #ffff;
+}
+
+.box-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-base {
+    display: flex;
+    flex-direction: column;
+    // justify-content: ;
+}
+

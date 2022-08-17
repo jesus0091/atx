@@ -1,0 +1,19 @@
+.a_title_container {
+    position: relative;
+
+    .a_title {
+        position: absolute;
+        top: 50%;
+    
+    }
+    .a_title_span{
+        font-size: 25rem;
+        line-height: 1;
+        margin-bottom: 0;
+    
+    }
+}
+
+.a_paragraph {
+    columns: 2;
+}
