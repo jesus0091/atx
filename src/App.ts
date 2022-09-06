@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ProjectListContainer from "./components/ProjectListContainer/ProjectListContainer";
 // import AboutPage from "./pages/AboutPage/AboutPage";
-import HomePage from "./pages/HomePage/HomePage";
+import { HomePage } from "./pages/HomePage";
 import ProjectDetail from "./components/ProjectDetail/ProjectDetail";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
